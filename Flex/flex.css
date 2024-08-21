@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  background-color: lightgray;
+}
+
+#fle {
+  font-family: "New Amsterdam";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 10px 15px 10px 15px;
+  padding: 15px 10px 15px 10px;
+  width: 950px;
+  height: 200px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  /* height: 160px;
+    width: 450px; */
+  display: flex;
+}
+
+.mainbox {
+  height: 140px;
+  width: 140px;
+  background-color: dodgerblue;
+  margin: 10px 15px 10px 15px;
+  padding: 15px 10px 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  font-family: "New Amsterdam";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(13, 17, 235);
+}
+
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightcyan;
+}
+
+.box3 {
+  background-color: lightgreen;
+}
+
+.box4 {
+  background-color: lightsalmon;
+}
+
+#foot {
+  margin-top: 30px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "New Amsterdam";
+  font-weight: 500;
+  /* font-style: italic; */
+}
